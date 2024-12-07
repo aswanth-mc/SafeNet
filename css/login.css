@@ -1,0 +1,32 @@
+.left-pannel{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BFFFC3;
+}
+.right-pannel{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AEFEB3;
+    
+}
+
+img{
+    width: 200px;
+}
+.box{
+    display: flex;
+}
+
+.btn{
+    margin-top: 10px;
+    cursor: pointer ;
+    
+}
+
