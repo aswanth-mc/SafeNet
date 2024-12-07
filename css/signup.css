@@ -1,11 +1,13 @@
 .left-pannel{
     width: 50%;
-    height: ;
+    height:100vh ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #BFFFC3;
+    position: sticky;
+    top: 0;
 }
 
 img{
