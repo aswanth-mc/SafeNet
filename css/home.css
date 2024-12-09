@@ -1,27 +1,110 @@
-.sidebar{
-    height: 100vh;
-    background-color: #5EA131;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #74aa60;
+  }
+
+  .sidebar {
+    background-color: #9bc89e;
     color: #fff;
     padding: 20px;
-    margin-top: 100px;
-}
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+  }
 
-.sidebar a {
+  .sidebar h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .sidebar a {
     text-decoration: none;
     color: #fff;
-    margin: 10px 0;
     padding: 10px;
-    display: block;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+  }
+
+  .sidebar a:hover {
+    background-color: #4B8F29;
+  }
+
+  .sidebar a img {
+    width: 24px;
+    height: 24px;
+  }
+
+
+  .header {
+    background-color: #9bc89e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-left: 250px;
+  }
+
+  .header .site-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header .site-logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header .notifications {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .header .notifications img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+
+  .main-content {
+    margin-left: 250px;
+    margin-top: 70px;
+    padding: 20px;
+  }
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+
+  }
+
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .card h5 {
+    margin: 15px;
+  }
+
+.site-logo{
+    padding-left: 30px;
 }
 
-.header {
-    background-color: #4B8F29;
-    color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
+.img_log{
+    width: 50px;
+    height: 50px;
+
 }
